@@ -1,0 +1,8 @@
+:root {
+	font-family: Karla, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	background-color: hsl(148, 38%, 91%);
+	color: hsl(187, 24%, 22%);
+}

@@ -1,0 +1,120 @@
+#root {
+	padding: 2rem;
+}
+
+h1 {
+	font-size: 2rem;
+	padding: 0 0.5em;
+	margin: 0;
+}
+
+main,
+#post-submit {
+	max-width: 30rem;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 2em;
+	font-size: 1.1rem;
+	background-color: #fff;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+	font-weight: 600;
+}
+
+.form,
+.form-label {
+	display: grid;
+	grid-template-columns: 1fr;
+	cursor: pointer;
+}
+
+.form {
+	gap: 0.875rem;
+}
+
+.form-input {
+	margin-top: 0.5em;
+	padding: 0.65em;
+	font-size: inherit;
+	font-family: inherit;
+	border: 1px solid hsl(186, 15%, 59%);
+	border-radius: 5px;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+.radio {
+	display: initial;
+	border: 1px solid hsl(186, 15%, 59%);
+	border-radius: 5px;
+	padding: 0.75em 1em;
+	background-color: white;
+
+	cursor: pointer;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+	transform: scale(1.4);
+	margin: 0 0.75em;
+}
+
+legend {
+	margin-bottom: 1em;
+}
+
+#message {
+	height: 12rem;
+}
+
+#consent {
+	margin: 2.5em 1em;
+	cursor: pointer;
+}
+
+#submit {
+	color: #fff;
+	padding: 1em;
+	font-size: inherit;
+	font-family: inherit;
+	background-color: hsl(169, 82%, 27%);
+	border: none;
+	border-radius: 5px;
+}
+
+#submit:hover {
+	cursor: pointer;
+	background-color: hsl(169, 68%, 20%);
+}
+
+#post-submit {
+	margin-top: 10em;
+	font-size: 1.8rem;
+}
+
+.hidden {
+	display: none;
+}
+
+/* @media (min-width: 720px) and (max-width: 1280px) {
+	main {
+		max-width: 720px;
+	}
+	.form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		cursor: pointer;
+	}
+
+	#email,
+	fieldset,
+	#submit {
+		grid-column: 1 / -1;
+	}
+} */
